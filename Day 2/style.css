@@ -1,0 +1,13 @@
+body {
+	font-family:  Lucida Sans;
+	padding:  8%;
+	margin:  8%;
+	background-image:  url('./background.jpg');
+	background-size:  cover;
+	height:  200vh;
+}
+
+span {
+	text-decoration:  underline;
+	text-decoration-color:  #32612D;
+}
