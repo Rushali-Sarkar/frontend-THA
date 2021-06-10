@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Calculator</title>
+		<link rel = "stylesheet" href = "./calculator.css">
+	</head>
+	<body>
+		<div id = "calculator">
+			<div id = "display">
+				<input type = "text" id = "input-display" disabled>
+				<button type = "button" id = "clear-one" value = "clear_one">&#10799;</button>
+			</div>
+			<div id = "buttons">
+				<div id = "first-row">
+					<button type = "button" id = "seven" class = "number-button" value = "7">7</button>
+					<button type = "button" id = "eight" class = "number-button" value = "8">8</button>
+					<button type = "button" id = "nine" class = "number-button" value = "9">9</button>
+					<button type = "button" id = "divide" class = "operator-button" value = "/">/</button>
+				</div>
+				<div id = "second-row">
+					<button type = "button" id = "four" class = "number-button" value = "4">4</button>
+					<button type = "button" id = "five" class = "number-button" value = "5">5</button>
+					<button type = "button" id = "six" class = "number-button" value = "6">6</button>
+					<button type = "button" id = "multiply" class = "operator-button" value = "*">*</button>
+				</div>
+				<div id = "third-row">
+					<button type = "button" id = "one" class = "number-button" value = "1">1</button>
+					<button type = "button" id = "two" class = "number-button" value = "2">2</button>
+					<button type = "button" id = "three" class = "number-button" value = "3">3</button>
+					<button type = "button" id = "minus" class = "operator-button" value = "-">-</button>
+				</div>
+				<div id = "fourth-row">
+					<button type = "button" id = "decimal" class = "operator-button" value = ".">.</button>
+					<button type = "button" id = "zero" class = "number-button" value = "0">0</button>
+					<button type = "button" id = "mod" class = "operator-button" value = "%">%</button>
+					<button type = "button" id = "plus" class = "operator-button" value = "+">+</button>
+				</div>
+				<div id = "fifth-row">
+					<button type = "button"  id = "clear" class = "special-button" value = "AC">AC</button>
+					<button type = "button" id = "root" class = "operator-button" value = "&#8730;">&#8730;</button>
+					<button type = "button" id = "power" class = "operator-button" value = "^">^</button>
+					<button type = "button" id = "equal" class = "special-button" value = "=">=</button>
+				</div>
+			</div>
+		</div>
+		<script src =  "./calculator.js"></script>
+	</body>
+</html>
