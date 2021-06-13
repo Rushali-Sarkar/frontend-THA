@@ -7,6 +7,9 @@ buttons.forEach(function(button) {
 function calculateExpression(event) {
   const button_value = event.target.value;
   if (button_value === "clear_one") {
+    if (display.value === "Nan") {
+        display.value = "";
+    }
   	var expression = display.value;
   	var length = expression.length;
   	if (length !== 0) {
@@ -14,6 +17,10 @@ function calculateExpression(event) {
   	}
   }
   else if (button_value === "=") {
+
+    if (display.value === "Nan") {
+        display.value = "";
+    }
     if (display.value !== "") {
     	var expression = display.value;
     	if (expression.includes("√")) {
@@ -43,6 +50,9 @@ function calculateExpression(event) {
     display.value = "";
   } 
   else {
+    if (display.value === "Nan") {
+        display.value = "";
+    }
     display.value += button_value;
     }
 }
