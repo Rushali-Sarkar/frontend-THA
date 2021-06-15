@@ -1,0 +1,48 @@
+body {
+	display:  flex;
+	align-items:  center;
+	justify-content:  center;
+	text-align:  center;
+	height:  100vh	;
+}
+
+.outer-box {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  box-shadow: 5px 5px 5px 5px #C0C0C0;
+  background: #005EB8;
+  color: #FFFFFF;
+  z-index:  100;
+}
+
+.row {
+	display:  flex;
+}
+
+.box {
+  flex:  column;
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0064C4;
+  cursor: pointer;
+}
+
+label:hover {
+  background: #0063C4;
+  border-color: #0064C4;
+}
+
+input:checked ~ label {
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+}
