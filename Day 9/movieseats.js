@@ -23,3 +23,4 @@ function updatebooked(event) {
     document.getElementById("booked-number").innerHTML = count;
     return;
 }
+

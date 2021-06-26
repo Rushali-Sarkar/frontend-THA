@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Memory Game</title>
+		<link rel = "stylesheet" href = "./memorygame.css">
+	</head>
+	<body>
+		<div id = "stats">
+			<p>Match: <span id = "match">0</span></p>
+			<p>Moves: <span id = "moves">0</span></p>
+			<p>Score: <span id = "score">0</span></p>
+			<p>Remaining: <span id = "remaining">18</span></p>
+		</div>
+		<div id = "block">
+			<div class = "row">
+				<div class = "column">
+					<input id = "box-1"  class = "card-input" type = "checkbox" name = "box-1">
+					<label for = "box-1"> </label>
+				</div>
+				<div class = "column">
+					<input id = "box-2"  class = "card-input" type = "checkbox" name = "box-2">
+					<label for = "box-2"> </label>
+				</div>
+				<div class = "column">
+					<input id = "box-3" class = "card-input" type = "checkbox" name = "box-3">
+					<label for = "box-3"> </label>
+				</div>
+				<div class = "column">
+					<input id = "box-4"  class = "card-input" type = "checkbox" name = "box-4">
+					<label for = "box-4"> </label>
+				</div>
+				<div class = "column">
+					<input id = "box-5"  class = "card-input" type = "checkbox" name = "box-5">
+					<label for = "box-5"> </label>
+				</div>
+				<div class = "column">
+					<input id = "box-6" class = "card-input" type = "checkbox" name = "box-6">
+					<label for = "box-6"> </label>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "column">
+					<input id = "box-7"  class = "card-input" type = "checkbox" name = "box-7">
+					<label for = "box-7"> </label>
+				</div>
+				<div class = "column">
+					<input id = "box-8" class = "card-input" type = "checkbox" name = "box-8">
+					<label for = "box-8"> </label>
+				</div>
+				<div class = "column">
+					<input id = "box-9"  class = "card-input" type = "checkbox" name = "box-9">
+					<label for = "box-9"></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-10" class = "card-input" type = "checkbox" name = "box-10">
+					<label for = "box-10" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-11" class = "card-input" type = "checkbox" name = "box-11">
+					<label for = "box-11" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-12" class = "card-input" type = "checkbox" name = "box-12">
+					<label for = "box-12" ></label>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "column">
+					<input  id = "box-13" class = "card-input" type = "checkbox" name = "box-13">
+					<label for = "box-13" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-14" class = "card-input" type = "checkbox" name = "box-14">
+					<label for = "box-14" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-15" class = "card-input" type = "checkbox" name = "box-15">
+					<label for = "box-15" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-16" class = "card-input" type = "checkbox" name = "box-16">
+					<label for = "box-16" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-17" class = "card-input" type = "checkbox" name = "box-17">
+					<label for = "box-17" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-18" class = "card-input" type = "checkbox" name = "box-18">
+					<label for = "box-18" ></label>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "column">
+					<input  id = "box-19" class = "card-input" type = "checkbox" name = "box-19">
+					<label for = "box-19" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-20" class = "card-input" type = "checkbox" name = "box-20">
+					<label for = "box-20" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-21" class = "card-input" type = "checkbox" name = "box-21">
+					<label for = "box-21" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-22" class = "card-input" type = "checkbox" name = "box-22">
+					<label for = "box-22" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-23" class = "card-input" type = "checkbox" name = "box-23">
+					<label for = "box-23" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-24" class = "card-input" type = "checkbox" name = "box-24">
+					<label for = "box-24" ></label>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "column">
+					<input  id = "box-25" class = "card-input" type = "checkbox" name = "box-25">
+					<label for = "box-25" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-26" class = "card-input" type = "checkbox" name = "box-26">
+					<label for = "box-26" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-27" class = "card-input" type = "checkbox" name = "box-27">
+					<label for = "box-27" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-28" class = "card-input" type = "checkbox" name = "box-28">
+					<label for = "box-28" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-29" class = "card-input" type = "checkbox" name = "box-29">
+					<label for = "box-29" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-30" class = "card-input" type = "checkbox" name = "box-30">
+					<label for = "box-30" ></label>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "column">
+					<input  id = "box-31" class = "card-input" type = "checkbox" name = "box-31">
+					<label for = "box-31" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-32" class = "card-input" type = "checkbox" name = "box-32">
+					<label for = "box-32" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-33" class = "card-input" type = "checkbox" name = "box-33">
+					<label for = "box-33" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-34" class = "card-input" type = "checkbox" name = "box-34">
+					<label for = "box-34" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-35" class = "card-input" type = "checkbox" name = "box-35">
+					<label for = "box-35" ></label>
+				</div>
+				<div class = "column">
+					<input  id = "box-36" class = "card-input" type = "checkbox" name = "box-36">
+					<label for = "box-36" ></label>
+				</div>
+			</div>
+		</div>
+		<div id = "reload">
+				<button id = "refresh" onclick = "location.reload(true);">Restart the Game</button>
+			</div>
+		<script src = "./memorygame.js"></script>
+	</body>
+</html>
