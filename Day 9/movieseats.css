@@ -1,0 +1,66 @@
+body {
+	font-family:  Comic Sans Ms;
+	background-color:  #C0C0C0;
+	align-items:  center;
+	justify-content:  center;
+	text-align:  center;
+}
+
+#stats {
+	font-size:  50px;
+	display:  flex;
+	text-align:  center;
+}
+
+#total, #booked {
+	flex:  50%;
+}
+
+#view {
+	margin:  auto;
+	position: relative;
+  	width: 1200px;
+  	height: 1200px;
+  	box-shadow: 5px 5px 5px 5px #000000;
+  	background: #DC3545;
+  	color: #FFFFFF;
+  	z-index:  100;
+}
+
+input {
+	display:  none;
+}
+
+.seats {
+	box-sizing: border-box;
+	vertical-align:  middle;
+	text-align:  center;
+  	display: table-cell;
+  	width: 100px;
+  	height: 100px;
+  	border: 1px solid #FFC107;
+  	cursor: pointer;
+}
+
+.row {
+	display:  flex;
+}
+
+.column {
+	flex:  column;
+	border-collapse: separate;
+  	border-spacing:  10px;
+}
+
+.seats:hover {
+  background: #FFC107;
+  border-color: #007BFF;
+  color: #007BFF;
+}
+
+input:checked ~ label {
+  background: #28A745;
+  border-color: #28A745;
+}
+
+

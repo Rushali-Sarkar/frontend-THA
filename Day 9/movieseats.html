@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Booking Movie Seats</title>
+		<link rel = "stylesheet" href = "./movieseats.css">
+	</head>
+	<body>
+		<div id = "movie-booking-system">
+			<div id = "stats">
+				<p>Total Seats: 100</p>
+				<div id = "total">
+					<p>Booked Seats: <span id = "booked-number">0</span></p>
+				</div>
+				<div id = "booked">
+					<p>Remaining Seats: <span id = "remaining-number">100</span></p>
+				</div>
+			</div>
+			<div id = "view">
+				<div class = "row">	
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-1"/>
+						<label class = "seats" for = "seat-1">Seat 1 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-2"/>
+						<label class = "seats" for = "seat-2">Seat 2 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-3"/>
+						<label class = "seats" for = "seat-3">Seat 3 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-4"/>
+						<label class = "seats" for = "seat-4">Seat 4 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-5"/>
+						<label class = "seats" for = "seat-5">Seat 5 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-6"/>
+						<label class = "seats" for = "seat-6">Seat 6 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-7"/>
+						<label class = "seats" for = "seat-7">Seat 7 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-8"/>
+						<label class = "seats" for = "seat-8">Seat 8 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-9"/>
+						<label class = "seats" for = "seat-9">Seat 9 </label>
+					</div>					
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-10"/>
+						<label class = "seats" for = "seat-10">Seat 10 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-11"/>
+						<label class = "seats" for = "seat-11">Seat 11 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-12"/>
+						<label class = "seats" for = "seat-12">Seat 12 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-13"/>
+						<label class = "seats" for = "seat-13">Seat 13 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-14"/>
+						<label class = "seats" for = "seat-14">Seat 14 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-15"/>
+						<label class = "seats" for = "seat-15">Seat 15 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-16"/>
+						<label class = "seats" for = "seat-16">Seat 16 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-17"/>
+						<label class = "seats" for = "seat-17">Seat 17 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-18"/>
+						<label class = "seats" for = "seat-18">Seat 18 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-19"/>
+						<label class = "seats" for = "seat-19">Seat 19 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-20"/>
+						<label class = "seats" for = "seat-20">Seat 20 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-21"/>
+						<label class = "seats" for = "seat-21">Seat 21 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-22"/>
+						<label class = "seats" for = "seat-22">Seat 22 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-23"/>
+						<label class = "seats" for = "seat-23">Seat 23 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-24"/>
+						<label class = "seats" for = "seat-24">Seat 24 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-25"/>
+						<label class = "seats" for = "seat-25">Seat 25 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-26"/>
+						<label class = "seats" for = "seat-26">Seat 26 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-27"/>
+						<label class = "seats" for = "seat-27">Seat 27 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-28"/>
+						<label class = "seats" for = "seat-28">Seat 28 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-29"/>
+						<label class = "seats" for = "seat-29">Seat 29 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-30"/>
+						<label class = "seats" for = "seat-30">Seat 30 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-31"/>
+						<label class = "seats" for = "seat-31">Seat 31 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-32"/>
+						<label class = "seats" for = "seat-32">Seat 32 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-33"/>
+						<label class = "seats" for = "seat-33">Seat 33 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-34"/>
+						<label class = "seats" for = "seat-34">Seat 34 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-35"/>
+						<label class = "seats" for = "seat-35">Seat 35 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-36"/>
+						<label class = "seats" for = "seat-36">Seat 36 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-37"/>
+						<label class = "seats" for = "seat-37">Seat 37 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-38"/>
+						<label class = "seats" for = "seat-38">Seat 38 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-39"/>
+						<label class = "seats" for = "seat-39">Seat 39 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-40"/>
+						<label class = "seats" for = "seat-40">Seat 40 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-41"/>
+						<label class = "seats" for = "seat-41">Seat 41 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-42"/>
+						<label class = "seats" for = "seat-42">Seat 42 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-43"/>
+						<label class = "seats" for = "seat-43">Seat 43 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-44"/>
+						<label class = "seats" for = "seat-44">Seat 44 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-45"/>
+						<label class = "seats" for = "seat-45">Seat 45 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-46"/>
+						<label class = "seats" for = "seat-46">Seat 46 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-47"/>
+						<label class = "seats" for = "seat-47">Seat 47 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-48"/>
+						<label class = "seats" for = "seat-48">Seat 48 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-49"/>
+						<label class = "seats" for = "seat-49">Seat 49 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-50"/>
+						<label class = "seats" for = "seat-50">Seat 50 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-51"/>
+						<label class = "seats" for = "seat-51">Seat 51 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-52"/>
+						<label class = "seats" for = "seat-52">Seat 52 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-53"/>
+						<label class = "seats" for = "seat-53">Seat 53 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-54"/>
+						<label class = "seats" for = "seat-54">Seat 54 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-55"/>
+						<label class = "seats" for = "seat-55">Seat 55 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-56"/>
+						<label class = "seats" for = "seat-56">Seat 56 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-57"/>
+						<label class = "seats" for = "seat-57">Seat 57 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-58"/>
+						<label class = "seats" for = "seat-58">Seat 58 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-59"/>
+						<label class = "seats" for = "seat-59">Seat 59 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-60"/>
+						<label class = "seats" for = "seat-60">Seat 60 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-61"/>
+						<label class = "seats" for = "seat-61">Seat 61 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-62"/>
+						<label class = "seats" for = "seat-62">Seat 62 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-63"/>
+						<label class = "seats" for = "seat-63">Seat 63 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-64"/>
+						<label class = "seats" for = "seat-64">Seat 64 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-65"/>
+						<label class = "seats" for = "seat-65">Seat 65 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-66"/>
+						<label class = "seats" for = "seat-66">Seat 66 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-67"/>
+						<label class = "seats" for = "seat-67">Seat 67 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-68"/>
+						<label class = "seats" for = "seat-68">Seat 68 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-69"/>
+						<label class = "seats" for = "seat-69">Seat 69 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-70"/>
+						<label class = "seats" for = "seat-70">Seat 70 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-71"/>
+						<label class = "seats" for = "seat-71">Seat 71 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-72"/>
+						<label class = "seats" for = "seat-72">Seat 72 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-73"/>
+						<label class = "seats" for = "seat-73">Seat 73 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-74"/>
+						<label class = "seats" for = "seat-74">Seat 74 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-75"/>
+						<label class = "seats" for = "seat-75">Seat 75 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-76"/>
+						<label class = "seats" for = "seat-76">Seat 76 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-77"/>
+						<label class = "seats" for = "seat-77">Seat 77 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-78"/>
+						<label class = "seats" for = "seat-78">Seat 78</label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-79"/>
+						<label class = "seats" for = "seat-79">Seat 79 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-80"/>
+						<label class = "seats" for = "seat-80">Seat 80 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-81"/>
+						<label class = "seats" for = "seat-81">Seat 81 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-82"/>
+						<label class = "seats" for = "seat-82">Seat 82 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-83"/>
+						<label class = "seats" for = "seat-83">Seat 83 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-84"/>
+						<label class = "seats" for = "seat-84">Seat 84 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-85"/>
+						<label class = "seats" for = "seat-85">Seat 85 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-86"/>
+						<label class = "seats" for = "seat-86">Seat 86 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-87"/>
+						<label class = "seats" for = "seat-87">Seat 87 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-88"/>
+						<label class = "seats" for = "seat-88">Seat 88 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-89"/>
+						<label class = "seats" for = "seat-89">Seat 89 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-90"/>
+						<label class = "seats" for = "seat-90">Seat 90 </label>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-91"/>
+						<label class = "seats" for = "seat-91">Seat 91 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-92"/>
+						<label class = "seats" for = "seat-92">Seat 92 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-93"/>
+						<label class = "seats" for = "seat-93">Seat 93 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-94"/>
+						<label class = "seats" for = "seat-94">Seat 94 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-95"/>
+						<label class = "seats" for = "seat-95">Seat 95 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-96"/>
+						<label class = "seats" for = "seat-96">Seat 96 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-97"/>
+						<label class = "seats" for = "seat-97">Seat 97 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-98"/>
+						<label class = "seats" for = "seat-98">Seat 98 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-99"/>
+						<label class = "seats" for = "seat-99">Seat 99 </label>
+					</div>
+					<div class = "column">
+						<input class = "seats-input" type = "checkbox" id = "seat-100"/>
+						<label class = "seats" for = "seat-100">Seat 100 </label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src = "./movieseats.js"></script>
+	</body>
+</html>
