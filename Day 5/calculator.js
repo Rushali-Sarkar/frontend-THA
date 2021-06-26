@@ -7,7 +7,7 @@ buttons.forEach(function(button) {
 function calculateExpression(event) {
   const button_value = event.target.value;
   if (button_value === "clear_one") {
-    if (display.value === "Infinity") {
+    if (display.value === "Infinity" || display.value === "NaN") {
         display.value = "";
     }
   	var expression = display.value;
@@ -18,7 +18,7 @@ function calculateExpression(event) {
   }
   else if (button_value === "=") {
 
-    if (display.value === "Infinity") {
+    if (display.value === "Infinity" || display.value === "NaN") {
         display.value = "";
     }
     if (display.value !== "") {
@@ -50,7 +50,7 @@ function calculateExpression(event) {
     display.value = "";
   } 
   else {
-    if (display.value === "Infinity") {
+    if (display.value === "Infinity" || display.value === "NaN") {
         display.value = "";
     }
     display.value += button_value;
