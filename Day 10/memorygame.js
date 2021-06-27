@@ -4,24 +4,24 @@ cards.forEach(function(cards) {
   cards.addEventListener("click", main);
 });
 
-let clojure = "images/clojure.png";
-let cpp = "images/cpp.png";
-let css3 = "images/css3.png";
-let elixir = "images/elixir.png";
-let flutter = "images/flutter.png";
-let golang = "images/golang.png";
-let haskell = "images/haskell.png";
-let html5 = "images/html5.png";
-let java = "images/java.png";
-let javascript = "images/javascript.png";
-let julia = "images/julia.png";
-let kotlin = "images/kotlin.png";
-let latex = "images/latex.png";
-let linux = "images/linux.png";
-let python = "images/python.png";
-let rust = "images/rust.png";
-let scala = "images/scala.png";
-let swift = "images/swift.png";
+let clojure = "./Images/clojure.png";
+let cpp = "./Images/cpp.png";
+let css3 = "./Images/css3.png";
+let elixir = "./Images/elixir.png";
+let flutter = "./Images/flutter.png";
+let golang = "./Images/golang.png";
+let haskell = "./Images/haskell.png";
+let html5 = "./Images/html5.png";
+let java = "./Images/java.png";
+let javascript = "./Images/javascript.png";
+let julia = "./Images/julia.png";
+let kotlin = "./Images/kotlin.png";
+let latex = "./Images/latex.png";
+let linux = "./Images/linux.png";
+let python = "./Images/python.png";
+let rust = "./Images/rust.png";
+let scala = "./Images/scala.png";
+let swift = "./Images/swift.png";
 
 let icons = [clojure, clojure, cpp, cpp, css3, css3, elixir, elixir, flutter, flutter, golang, golang, haskell, haskell, html5, html5, java, java, javascript, javascript, julia, julia, kotlin, kotlin, latex, latex, linux, linux, python, python, rust, rust, scala, scala, swift, swift];
 let total_items = 36;
@@ -35,7 +35,7 @@ for (var i = 0; i < total_items; i++) {
 }
 
 var labels = document.getElementsByTagName('label');
-let question = "images/question.png";
+let question = "./Images/question.png";
 
 for (var i = 0; i < total_items; i++) {
 	var img = new Image();
@@ -83,14 +83,14 @@ function main(event) {
 	var input = event.srcElement;
 	var label = getLabel(input);
 	var index = getIndex(label);
-	var imagesrc = random_icons[index];
+	var ./Imagesrc = random_icons[index];
 	var store_open_label = open_label;
-	label.children[0].src = imagesrc;
+	label.children[0].src = ./Imagesrc;
 	label.children[0].class = "open";
 
 	if (open_image !== null && open_index !== index) {
 
-		if (open_image === imagesrc) {
+		if (open_image === ./Imagesrc) {
 			input.checked = true;
 			input.disabled = true;
 			open_input.checked = true;
@@ -119,7 +119,7 @@ function main(event) {
 		open_input = input;
 		open_label = label;
 		open_index = index;
-		open_image = imagesrc;
+		open_image = ./Imagesrc;
 	}
 
 	document.getElementById('match').innerHTML = matched;
