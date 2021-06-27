@@ -83,9 +83,9 @@ function main(event) {
 	var input = event.srcElement;
 	var label = getLabel(input);
 	var index = getIndex(label);
-	var ./Imagesrc = random_icons[index];
+	var imagesrc = random_icons[index];
 	var store_open_label = open_label;
-	label.children[0].src = ./Imagesrc;
+	label.children[0].src = imagesrc;
 	label.children[0].class = "open";
 
 	if (open_image !== null && open_index !== index) {
@@ -119,7 +119,7 @@ function main(event) {
 		open_input = input;
 		open_label = label;
 		open_index = index;
-		open_image = ./Imagesrc;
+		open_image = imagesrc;
 	}
 
 	document.getElementById('match').innerHTML = matched;
