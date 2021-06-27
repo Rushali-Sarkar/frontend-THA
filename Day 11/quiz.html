@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Quiz</title>
+		<link rel = "stylesheet" href = "./quiz.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id = "block">
+			<div id = "question">
+				<br>
+				<p id = "question-text">1. 
+				Who created Linux ?
+				</p>
+				<br>
+			</div>
+			<div id = "options">
+				<br>
+				<div class = "option">
+					<input id = "option-1" type = "radio" name = "choose-one"
+					class = "radio-button">
+					<label for = "option-1" id = "option1">
+						Steve Jobs
+					</label>
+				</div>
+				<div class = "option">
+					<input id = "option-2" type = "radio" name = "choose-one"
+					class = "radio-button">
+					<label for = "option-2" id = "option2">
+						Bill Gates
+					</label>
+				</div>
+				<div class = "option">
+					<input id = "option-3" type = "radio" name = "choose-one"
+					class = "radio-button">
+					<label for = "option-3" id = "option3">
+						Linus Torvalds
+					</label>
+				</div>
+				<div class = "option">
+					<input id = "option-4" type = "radio" name = "choose-one"
+					class = "radio-button">
+					<label for = "option-4" id = "option4">
+						Elon Musk
+					</label>
+				</div>
+			</div>
+			<div id = "navigation">
+				<button id = "previous" class = "button" onclick = "getpreviousquestion();">
+				<i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>Previous</button>
+				<button id = "clear" class = "button" onclick = "clearselection();"><i class="fa fa-times" aria-hidden="true">&nbsp;</i>Clear</button>
+				<button id = "next" class = "button" onclick = "getnextquestion();">Next&nbsp;
+				<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+			</div>
+			<div id = "submit-button">
+				<button id = "submit" onclick = "getscore();">
+				<i class="fa fa-check" aria-hidden="true">&nbsp;</i>
+				Submit</button>
+			</div>
+		</div>
+		<script src = "./quiz.js"></script>
+	</body>
+</html>

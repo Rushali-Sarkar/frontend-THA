@@ -90,7 +90,7 @@ function main(event) {
 
 	if (open_image !== null && open_index !== index) {
 
-		if (open_image === ./Imagesrc) {
+		if (open_image === imagesrc) {
 			input.checked = true;
 			input.disabled = true;
 			open_input.checked = true;
@@ -125,7 +125,6 @@ function main(event) {
 	document.getElementById('match').innerHTML = matched;
 	document.getElementById('moves').innerHTML = moves;
 	document.getElementById('score').innerHTML = score;
-	document.getElementById('remaining').innerHTML = remaining;
+	document.getElementById('remaining').innerHTML = remainining;
 	return;
 }
-
