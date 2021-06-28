@@ -18,7 +18,20 @@ let current_page  = 0;
 let next_page     = 1;
 
 function selectoption(event) {
-	children = event.srcElement.children;
+	let divId = event.target.id;
+	if (divId === "first" || divId === "option1" || divId === "option-1") {
+		divId = "first";
+	}
+	else if (divId === "second" || divId === "option2" || divId === "option-2") {
+		divId = "second";
+	}
+	else if (divId === "third" || divId === "option3" || divId === "option-3") {
+		divId = "third";
+	}
+	else if (divId === "third" || divId === "option4" || divId === "option-4") {
+		divId = "fourth";
+	}
+	let children = document.getElementById(divId).children;
 	children[0].checked = true;
 	let optionselected = children[1].id;
 	if (optionselected === "option1") {
@@ -42,6 +55,7 @@ function selectoption(event) {
 
 function clearselection() {
 	selected_answers[current_page] = null;
+	selected_options[current_page] = -1;
 	document.getElementById('option-1').checked = false;
 	document.getElementById('option-2').checked = false;
 	document.getElementById('option-3').checked = false;
@@ -149,9 +163,3 @@ function getscore() {
 	document.getElementById('submit-button').style.display = "none";
 	return;
 }
-
-
-
-
-
-
