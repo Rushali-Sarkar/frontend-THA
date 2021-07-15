@@ -105,6 +105,8 @@ body {
 
 .delete {
 	flex:  20%;
+	height:  100px;
+	width:  100px;
 	margin:  2%;
 	padding:  2%;
 	border:  none;
@@ -116,4 +118,13 @@ body {
 
 .delete:hover {
 	background-color:  #F95345;
+}
+
+.checkbox {
+	flex:  20%;
+	height:  100px;
+	width:  100px;
+	margin:  2%;
+	padding:  2%;
+	cursor:  pointer;
 }

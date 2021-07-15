@@ -18,7 +18,11 @@ function addevent() {
 	element.setAttribute("onclick", "deletenote(this.id);")
 	element.id = "delete-" + String(notes);
 	childp.innerHTML = text;
+	var checkbox = document.createElement("input");
+	checkbox.setAttribute("type", "checkbox");
+	checkbox.className = "checkbox";
 	childdiv.appendChild(childp);
+	childdiv.append(checkbox);
 	childdiv.append(element);
 	parentelement.insertBefore(childdiv, parentelement.firstChild);
 	document.getElementById('input-todo').value = "";
