@@ -16,5 +16,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://rushali-sarkar.github.io/frontend-THA/Day 15/hello-world/src/index.html"
+  "homepage": "https://rushali-sarkar.github.io/frontend-THA/Day 15/hello-world/src"
 }
