@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Event Handling</title>
+		<link rel = "stylesheet" href = "./event.css">
+	</head>
+	<body>
+		<div>
+			<button onclick = "clickme();">Click Me</button>
+			<p id = "click">Number of times button clicked: 0</p>
+		</div>
+		<div>
+			<button onmouseover = "mousehover();" onmouseout = "mouseout();">Hover Me</button>
+			<p id = "hover">Number of times button hovered: 0</p>
+			<p id = "hovering" style = "display: none;">The Button is hovered</p>
+			<p id = "release">The Button is under release</p>
+		</div>
+		<div>
+			<input onfocus = "focused();" onblur = "blur();"
+			onkeyup = "keyup();" placeholder = "No action" id = "up" value = "Key Up">
+		</div>
+		<div>
+			<input onfocus = "focused();" onblur = "blur();"
+			onkeyup = "keydown();" placeholder = "No Action"  id = "down" 
+			value = "Key down">
+		</div>
+		<script src = "./event.js"></script>
+	</body>
+</html>
