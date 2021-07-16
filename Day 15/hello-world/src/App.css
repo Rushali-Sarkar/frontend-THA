@@ -1,6 +1,6 @@
 .App {
-  padding:  5%;
-  margin:  5% auto;
+  margin:  auto;
+  height:  100vh;
   background-color: #222;
   text-align: center;
   justify-content:  center;
@@ -21,6 +21,7 @@
 
 .App-intro {
   font-size: large;
+  color:  white;
 }
 
 @keyframes App-logo-spin {
