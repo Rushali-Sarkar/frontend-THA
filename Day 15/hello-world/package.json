@@ -12,11 +12,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "homepage": "https://rushali-sarkar.github.io/frontend-THA/Day 15/hello-world",
-  "scripts": {
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "homepage": "https://rushali-sarkar.github.io/frontend-THA/Day 15/hello-world/src/index.html"
 }
