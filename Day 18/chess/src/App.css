@@ -1,0 +1,12 @@
+.main {
+  display:  flex;
+  align-items:  center;
+  justify-content:  center;
+  margin:  5%;
+  padding:  5%;
+}
+
+.chess-box {
+  margin:  10%;
+  border:  20px solid  #270f36;
+}

@@ -1,0 +1,20 @@
+.odd-line {
+	display:  flex;
+}
+
+.even-line {
+	display: flex;
+}
+
+.white {
+	height:  100px;
+	width:  100px;
+	background-color:  #C0C0C0;
+
+}
+
+.black {
+	height:  100px;
+	width:  100px;
+	background-color:  #000000;
+}
