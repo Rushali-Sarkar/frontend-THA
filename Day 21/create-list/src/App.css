@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
+  text-align:  center;
+}
+
+.input-items {
+  display: flex;
+  margin: 2% 0%;
+}
+
+.food-input, .calorie-input, .editing-food, .editing-calorie {
+  margin:  2% 0%;
+  width:  400px;
+  height:  50px;
+  font-size: 30px;
+}
+
+.calorie-input {
+  margin-left: 1%;
+}
+
+.submit-button {
+  margin:  0% 10%;
+  border:  none;
+  width:  400px;
+  height:  50px;
+  font-size:  30px;
+  cursor:  pointer;
+  color:  #ffffff;
+  background-color: #00bfff;
+}
+
+.submit-button:hover {
+  background-color: #00aae4;
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:  center;
+  background: #FCC9C5;
+  border: 2px solid #FEDDD8;
+  margin:  2% 25%;
+  padding: 3%;
+  font-size: 20px;
+}
+
+.delete-button {
+  margin:  0% 1%;
+  padding: 1%;
+  border:  none;
+  width:  100px;
+  height:  50px;
+  font-size:  20px;
+  cursor:  pointer;
+  color:  #ffffff;
+  background-color: #e8000d;
+}
+
+.delete-button:hover {
+  background-color: #e51a4c;
+}
+
+.edit-button {
+  margin:  0% 1%;
+  padding: 1%;
+  border:  none;
+  width:  100px;
+  height:  50px;
+  font-size:  20px;
+  cursor:  pointer;
+  color:  #ffffff;
+  background-color: #26619c;
+}
+
+.edit-button:hover {
+  background-color: #0093af;
+}
+
+.heading {
+  text-align: center;
+  font-size:  40px;
+  color:  #035096;
+}
