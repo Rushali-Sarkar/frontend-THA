@@ -1,6 +1,6 @@
 {
   "homepage": "https://rushali-sarkar.github.io/frontend-THA/Day 19/state/build/",
-  "name": "chess",
+  "name": "state",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

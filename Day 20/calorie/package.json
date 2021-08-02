@@ -1,6 +1,6 @@
 {
   "homepage": "https://rushali-sarkar.github.io/frontend-THA/Day 20/calorie/build/",
-  "name": "chess",
+  "name": "calorie",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

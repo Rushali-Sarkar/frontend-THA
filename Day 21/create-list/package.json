@@ -1,6 +1,6 @@
 {
   "homepage": "https://rushali-sarkar.github.io/frontend-THA/Day 21/create-list/build/",
-  "name": "chess",
+  "name": "create-list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
